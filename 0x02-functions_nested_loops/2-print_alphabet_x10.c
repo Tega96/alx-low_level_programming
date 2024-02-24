@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * print_alphabet_x10 - Write a function that prints 10 times the alpha
  * Return: Always 0
  */
 
