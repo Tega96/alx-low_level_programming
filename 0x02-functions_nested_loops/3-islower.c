@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * _islower - This code checks for lower character
+ * @c - character to be checked
  * Return: Always 0
  */
 
