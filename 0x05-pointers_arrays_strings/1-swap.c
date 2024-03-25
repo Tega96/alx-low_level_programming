@@ -7,11 +7,11 @@
  * Return: 0
  */
 
-void sawp_int(int *a, int *b) 
+void swap_int(int *a, int *b) 
 {
 	int c;
 	
 	c = *a;
-	*b = *a;
-	*a = c;
+	*a = *b;
+	*b = c;
 }
