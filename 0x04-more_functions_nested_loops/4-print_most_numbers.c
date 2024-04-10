@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_mist_numbers - prints numbers
+ * print_most_numbers - prints numbers
  * @i - parameter
  * Return: void
  */
 
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int i;
 
@@ -15,5 +15,5 @@ void print_most_numbers(void);
 		if (i != 2 && i != 4)
 			_putchar(i + '0');
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
