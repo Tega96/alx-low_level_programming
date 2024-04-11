@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a block figure
- * @size: parameter
+ * @size:
  * Return: void
  */
 
@@ -12,13 +12,10 @@ void print_square(int size)
 		_putchar('\n');
 	else
 	{
-		int i, j;
+		int i;
 
-		for (i = 1 ; i <= size ; i++)
-		{
-			for (j = 1 ; j <= size ; j++)
-				_putchar('#');
+		for (i = 0 ; i <= size ; i++)
+			_putchar('#');
 		_putchar('\n');
-		}
 	}
 }
