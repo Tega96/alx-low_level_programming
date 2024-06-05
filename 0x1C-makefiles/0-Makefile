@@ -1,9 +1,4 @@
-school : school.o main.o
-	cc -o school school.o main.o
+all : school
 
-school.o : school.c m.h
-	cc -c school.c
-main.o : main.c m.h
-	cc -c main.c
-clear :
-	cc -c school.o main.o
+school : main.c school.c
+	gcc main.c school.c -o school
