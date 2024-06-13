@@ -2,7 +2,7 @@
 #include <limits.h>
 
 /**
- * print_number - Prints an integer. 
+ * print_number - Prints an integer.
  * @n: input integer
  * Return: void
  */
@@ -21,7 +21,7 @@ void print_number(int n)
 	{
 		_putchar('-');
 		n = -(n + 1);
-		flag =1;
+		flag = 1;
 	}
 	if (n < 0)
 	{
@@ -37,7 +37,7 @@ void print_number(int n)
 	n = nCopy;
 	while (multiplier / 10 != 0)
 	{
-		digitCol = n /multiplier; 
+		digitCol = n / multiplier;
 		_putchar(digitCol + '0');
 		n %= multiplier;
 		multiplier /= 10;
