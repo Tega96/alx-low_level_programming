@@ -19,8 +19,17 @@ void print_to_98(int n)
 			if (i != n)
 				_putchar(' ');
 			if (i < 0)
+			{
 				_putchar('-');
-			print_num(_abs(i));
+				_putchar((i * -1) % 10 + '0');
+			}
+			else if (i > 9)
+			{
+				_putchar(i / 10 + '0');
+				_putchar(i % 10 + '0');
+			}
+			else 
+				_putchar (i + '0');
 			if (i != 98)
 				_putchar(',');
 		}
