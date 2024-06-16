@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * puts - prints a string and a new line to stdout
  * @str: the parameter used
