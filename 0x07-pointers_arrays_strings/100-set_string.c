@@ -1,7 +1,7 @@
-#include "mian.h"
+#include "main.h"
 
 /**
- * set-string - Sets the value of a pointer to char
+ * set-string - sets the value of a pointer to char
  * @s: The pointer
  * @to: The char
  */
