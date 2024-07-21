@@ -3,9 +3,8 @@
 
 /**
  * main - This program multiplies two numbers
- *
  * @argc: argument count
- * @agrv: argument vector
+ * @argv: argument vector
  *
  * Return: Always 0
  */
@@ -13,7 +12,6 @@ int main(int argc, char *argv[])
 {
 	int n1 = 0, n2 = 0;
 
-	(void)argv;
 	if (argc == 3)
 	{
 		n1 = atoi(argv[1]);
