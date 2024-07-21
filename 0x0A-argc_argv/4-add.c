@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point, program that adds two numbers
@@ -12,13 +13,13 @@ int main(int argc, char *argv[])
 	int i;
 	int sum = 0;
 
-	if (arg > 1)
+	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
 		{
 			sum += atoi(argv[i]);
 		}
-		print("%d\n", sum);
+		printf("%d\n", sum);
 	}
 	return (0);
 }
